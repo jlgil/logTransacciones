@@ -1,0 +1,152 @@
+2019-10-15 11:00:26.928  INFO 8120 --- [main] c.a.l.LogTransaccionesApplication        : Starting LogTransaccionesApplication v1.0 on MGI-DELL-02 with PID 8120 (C:\JoseGil\Personal\Aplicaciones\logTransacciones\target\logTransacciones-1.0.jar started by Mgi-Dell-02 in C:\JoseGil\Personal\Aplicaciones\logTransacciones)
+2019-10-15 11:00:26.972 DEBUG 8120 --- [main] c.a.l.LogTransaccionesApplication        : Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+2019-10-15 11:00:26.976  INFO 8120 --- [main] c.a.l.LogTransaccionesApplication        : No active profile set, falling back to default profiles: default
+2019-10-15 11:00:28.938  INFO 8120 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-15 11:00:28.953  INFO 8120 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-15 11:00:29.007  INFO 8120 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30ms. Found 0 repository interfaces.
+2019-10-15 11:00:29.029  INFO 8120 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-15 11:00:29.033  INFO 8120 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-15 11:00:29.051  INFO 8120 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2019-10-15 11:00:29.938  INFO 8120 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$92f758f6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-15 11:00:32.028  INFO 8120 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-15 11:00:32.109  INFO 8120 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-15 11:00:32.127  INFO 8120 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-10-15 11:00:32.180  INFO 8120 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\CA\SCM\x86;C:\Program Files (x86)\CA\SharedComponents\PEC\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\apache-maven-3.5.0\bin;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\PuTTY\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\CA\SCM;C:\Program Files\CA\SCM\x86;C:\Users\Mgi-Dell-02\AppData\Local\Microsoft\WindowsApps;;.]
+2019-10-15 11:00:32.483  INFO 8120 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-15 11:00:32.484  INFO 8120 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5349 ms
+2019-10-15 11:00:34.068  INFO 8120 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-15 11:00:34.371  INFO 8120 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-10-15 11:00:34.384  INFO 8120 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-10-15 11:00:35.013  INFO 8120 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-15 11:00:36.823  INFO 8120 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-15 11:00:36.940  INFO 8120 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2019-10-15 11:00:37.936  INFO 8120 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-15 11:00:38.890  INFO 8120 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-15 11:00:39.238  WARN 8120 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-15 11:00:40.009  INFO 8120 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-15 11:00:40.047  INFO 8120 --- [main] c.a.l.LogTransaccionesApplication        : Started LogTransaccionesApplication in 14.315 seconds (JVM running for 15.351)
+2019-10-15 11:03:05.650  INFO 8120 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-15 11:03:05.673  INFO 8120 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-15 11:03:05.717  INFO 8120 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 27 ms
+2019-10-15 11:03:06.074 DEBUG 8120 --- [http-nio-8080-exec-1] c.a.l.controllers.logs.LogController     : BUsqueda de todos lo LOGS
+2019-10-15 11:03:06.090 DEBUG 8120 --- [http-nio-8080-exec-1] c.a.l.controllers.logs.LogController     : buscarAllClientes Ced: Libreria de prueba2
+2019-10-15 11:03:06.091 DEBUG 8120 --- [http-nio-8080-exec-1] c.a.l.controllers.logs.LogController     : buscarAllClientes Ced: null
+2019-10-15 11:31:48.748 DEBUG 8120 --- [http-nio-8080-exec-3] c.a.l.controllers.logs.LogController     : BUsqueda de todos lo LOGS
+2019-10-15 11:31:48.778 DEBUG 8120 --- [http-nio-8080-exec-3] c.a.l.controllers.logs.LogController     : buscarAllClientes Ced: Libreria de prueba2
+2019-10-15 11:31:48.804 DEBUG 8120 --- [http-nio-8080-exec-3] c.a.l.controllers.logs.LogController     : buscarAllClientes Ced: null
+2019-10-15 11:35:09.419 DEBUG 8120 --- [http-nio-8080-exec-5] c.a.l.controllers.logs.LogController     : BUsqueda de todos lo LOGS
+2019-10-15 11:35:09.451 DEBUG 8120 --- [http-nio-8080-exec-5] c.a.l.controllers.logs.LogController     : buscarAllClientes Ced: Libreria de prueba2
+2019-10-15 11:35:09.454 DEBUG 8120 --- [http-nio-8080-exec-5] c.a.l.controllers.logs.LogController     : buscarAllClientes Ced: null
+2019-10-15 11:55:53.613 DEBUG 8120 --- [http-nio-8080-exec-7] c.a.l.controllers.logs.LogController     : BUsqueda de todos lo LOGS
+2019-10-15 11:55:53.640 DEBUG 8120 --- [http-nio-8080-exec-7] c.a.l.controllers.logs.LogController     : buscarAllClientes Ced: Libreria de prueba2
+2019-10-15 11:55:53.668 DEBUG 8120 --- [http-nio-8080-exec-7] c.a.l.controllers.logs.LogController     : buscarAllClientes Ced: null
+2019-10-15 11:56:38.788 DEBUG 8120 --- [http-nio-8080-exec-9] c.a.l.controllers.logs.LogController     : BUsqueda de todos lo LOGS
+2019-10-15 11:56:38.811 DEBUG 8120 --- [http-nio-8080-exec-9] c.a.l.controllers.logs.LogController     : buscarAllClientes Ced: Libreria de prueba2
+2019-10-15 11:56:38.814 DEBUG 8120 --- [http-nio-8080-exec-9] c.a.l.controllers.logs.LogController     : buscarAllClientes Ced: null
+2019-10-15 14:53:13.210 DEBUG 8120 --- [http-nio-8080-exec-1] c.a.l.controllers.logs.LogController     : BUsqueda de todos lo LOGS
+2019-10-15 14:53:13.218 DEBUG 8120 --- [http-nio-8080-exec-1] c.a.l.controllers.logs.LogController     : buscarAllClientes Ced: Libreria de prueba2
+2019-10-15 14:53:13.234 DEBUG 8120 --- [http-nio-8080-exec-1] c.a.l.controllers.logs.LogController     : buscarAllClientes Ced: null
+2019-10-15 14:53:57.024 DEBUG 8120 --- [http-nio-8080-exec-3] c.a.l.controllers.logs.LogController     : BUsqueda de todos lo LOGS
+2019-10-15 14:53:57.037 DEBUG 8120 --- [http-nio-8080-exec-3] c.a.l.controllers.logs.LogController     : buscarAllClientes Ced: Libreria de prueba2
+2019-10-15 14:53:57.037 DEBUG 8120 --- [http-nio-8080-exec-3] c.a.l.controllers.logs.LogController     : buscarAllClientes Ced: null
+2019-10-15 14:54:31.336 DEBUG 8120 --- [http-nio-8080-exec-5] c.a.l.controllers.logs.LogController     : BUsqueda de todos lo LOGS
+2019-10-15 14:54:31.361 DEBUG 8120 --- [http-nio-8080-exec-5] c.a.l.controllers.logs.LogController     : buscarAllClientes Ced: Libreria de prueba2
+2019-10-15 14:54:31.377 DEBUG 8120 --- [http-nio-8080-exec-5] c.a.l.controllers.logs.LogController     : buscarAllClientes Ced: null
+2019-10-15 15:14:13.895 DEBUG 8120 --- [http-nio-8080-exec-7] c.a.l.controllers.logs.LogController     : BUsqueda de todos lo LOGS
+2019-10-15 15:14:13.921 DEBUG 8120 --- [http-nio-8080-exec-7] c.a.l.controllers.logs.LogController     : buscarAllClientes Ced: Libreria de prueba2
+2019-10-15 15:14:13.925 DEBUG 8120 --- [http-nio-8080-exec-7] c.a.l.controllers.logs.LogController     : buscarAllClientes Ced: null
+2019-10-15 15:14:19.108 DEBUG 8120 --- [http-nio-8080-exec-9] c.a.l.controllers.logs.LogController     : BUsqueda de todos lo LOGS
+2019-10-15 15:14:19.133 DEBUG 8120 --- [http-nio-8080-exec-9] c.a.l.controllers.logs.LogController     : buscarAllClientes Ced: Libreria de prueba2
+2019-10-15 15:14:19.159 DEBUG 8120 --- [http-nio-8080-exec-9] c.a.l.controllers.logs.LogController     : buscarAllClientes Ced: null
+2019-10-15 15:14:23.335 DEBUG 8120 --- [http-nio-8080-exec-1] c.a.l.controllers.logs.LogController     : BUsqueda de todos lo LOGS
+2019-10-15 15:14:23.373 DEBUG 8120 --- [http-nio-8080-exec-1] c.a.l.controllers.logs.LogController     : buscarAllClientes Ced: Libreria de prueba2
+2019-10-15 15:14:23.374 DEBUG 8120 --- [http-nio-8080-exec-1] c.a.l.controllers.logs.LogController     : buscarAllClientes Ced: null
+2019-10-15 16:23:48.577 DEBUG 8120 --- [http-nio-8080-exec-3] c.a.l.controllers.logs.LogController     : BUsqueda de todos lo LOGS
+2019-10-15 16:23:48.603 DEBUG 8120 --- [http-nio-8080-exec-3] c.a.l.controllers.logs.LogController     : buscarAllClientes Ced: Libreria de prueba2
+2019-10-15 16:23:48.634 DEBUG 8120 --- [http-nio-8080-exec-3] c.a.l.controllers.logs.LogController     : buscarAllClientes Ced: null
+2019-10-15 16:25:19.582 DEBUG 8120 --- [http-nio-8080-exec-5] c.a.l.controllers.logs.LogController     : BUsqueda de todos lo LOGS
+2019-10-15 16:25:19.601 DEBUG 8120 --- [http-nio-8080-exec-5] c.a.l.controllers.logs.LogController     : buscarAllClientes Ced: Libreria de prueba2
+2019-10-15 16:25:19.602 DEBUG 8120 --- [http-nio-8080-exec-5] c.a.l.controllers.logs.LogController     : buscarAllClientes Ced: null
+2019-10-15 16:26:38.503 DEBUG 8120 --- [http-nio-8080-exec-6] c.a.l.controllers.logs.LogController     : BUsqueda de todos lo LOGS
+2019-10-15 16:26:38.517 DEBUG 8120 --- [http-nio-8080-exec-6] c.a.l.controllers.logs.LogController     : buscarAllClientes Ced: Libreria de prueba2
+2019-10-15 16:26:38.538 DEBUG 8120 --- [http-nio-8080-exec-6] c.a.l.controllers.logs.LogController     : buscarAllClientes Ced: null
+2019-10-15 16:44:10.959 DEBUG 8120 --- [http-nio-8080-exec-8] c.a.l.controllers.logs.LogController     : BUsqueda de todos lo LOGS
+2019-10-15 16:44:10.979 DEBUG 8120 --- [http-nio-8080-exec-8] c.a.l.controllers.logs.LogController     : buscarAllClientes Ced: Libreria de prueba2
+2019-10-15 16:44:10.980 DEBUG 8120 --- [http-nio-8080-exec-8] c.a.l.controllers.logs.LogController     : buscarAllClientes Ced: null
+2019-10-15 16:44:28.820 DEBUG 8120 --- [http-nio-8080-exec-9] c.a.l.controllers.logs.LogController     : BUsqueda de todos lo LOGS
+2019-10-15 16:44:28.832 DEBUG 8120 --- [http-nio-8080-exec-9] c.a.l.controllers.logs.LogController     : buscarAllClientes Ced: Libreria de prueba2
+2019-10-15 16:44:28.899 DEBUG 8120 --- [http-nio-8080-exec-9] c.a.l.controllers.logs.LogController     : buscarAllClientes Ced: null
+2019-10-15 16:47:35.243 DEBUG 8120 --- [http-nio-8080-exec-3] c.a.l.controllers.logs.LogController     : ingresoLog: com.accusys.logTransacciones.dao.dto.LogDto@5e391e16
+2019-10-15 16:47:35.245 DEBUG 8120 --- [http-nio-8080-exec-3] c.a.l.servicios.impl.LogServiciosImpl    : INSERTANDO DESDE SERVICIO:com.accusys.logTransacciones.dao.dto.LogDto@5e391e16
+2019-10-15 16:47:35.279 DEBUG 8120 --- [http-nio-8080-exec-3] c.a.l.dao.impl.LogDaoImpl                : Desde impl Tablagsgsgss DAO sql: INSERT INTO diccionario.log_transacciones values(?,?,?,?,?,?,?,?)
+2019-10-15 16:47:35.297 DEBUG 8120 --- [http-nio-8080-exec-3] c.a.l.dao.impl.LogDaoImpl                : Desde impl Antes del Error INSERT INTO diccionario.log_transacciones values(?,?,?,?,?,?,?,?)
+2019-10-15 16:48:53.311  INFO 8120 --- [Thread-4] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-15 16:48:53.334  INFO 8120 --- [Thread-4] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-15 16:52:55.222  INFO 640 --- [main] c.a.l.LogTransaccionesApplication        : Starting LogTransaccionesApplication v1.0 on MGI-DELL-02 with PID 640 (C:\JoseGil\Personal\Aplicaciones\logTransacciones\target\logTransacciones-1.0.jar started by Mgi-Dell-02 in C:\JoseGil\Personal\Aplicaciones\logTransacciones)
+2019-10-15 16:52:55.229 DEBUG 640 --- [main] c.a.l.LogTransaccionesApplication        : Running with Spring Boot v2.1.2.RELEASE, Spring v5.1.4.RELEASE
+2019-10-15 16:52:55.231  INFO 640 --- [main] c.a.l.LogTransaccionesApplication        : No active profile set, falling back to default profiles: default
+2019-10-15 16:52:57.324  INFO 640 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-15 16:52:57.340  INFO 640 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-15 16:52:57.387  INFO 640 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32ms. Found 0 repository interfaces.
+2019-10-15 16:52:57.414  INFO 640 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-15 16:52:57.417  INFO 640 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-15 16:52:57.438  INFO 640 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019-10-15 16:52:58.278  INFO 640 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4ce11322] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-15 16:53:02.894  INFO 640 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-10-15 16:53:02.993  INFO 640 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-15 16:53:03.015  INFO 640 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-10-15 16:53:03.055  INFO 640 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\CA\SCM\x86;C:\Program Files (x86)\CA\SharedComponents\PEC\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\apache-maven-3.5.0\bin;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\PuTTY\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\CA\SCM;C:\Program Files\CA\SCM\x86;C:\Users\Mgi-Dell-02\AppData\Local\Microsoft\WindowsApps;;.]
+2019-10-15 16:53:04.511  INFO 640 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-15 16:53:04.525  INFO 640 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 9129 ms
+2019-10-15 16:53:05.605  INFO 640 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-15 16:53:05.790  INFO 640 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-10-15 16:53:05.806  INFO 640 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-10-15 16:53:06.205  INFO 640 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-15 16:53:06.760  INFO 640 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-15 16:53:06.904  INFO 640 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2019-10-15 16:53:07.309  INFO 640 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-15 16:53:07.978  INFO 640 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-15 16:53:08.190  WARN 640 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-15 16:53:08.807  INFO 640 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-15 16:53:08.836  INFO 640 --- [main] c.a.l.LogTransaccionesApplication        : Started LogTransaccionesApplication in 14.848 seconds (JVM running for 16.18)
+2019-10-15 16:55:26.927  INFO 640 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-15 16:55:26.944  INFO 640 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-15 16:55:26.967  INFO 640 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 22 ms
+2019-10-15 16:55:27.415 DEBUG 640 --- [http-nio-8080-exec-1] c.a.l.controllers.logs.LogController     : ingresoLog: com.accusys.logTransacciones.dao.dto.LogDto@7340b6b7
+2019-10-15 16:55:27.417 DEBUG 640 --- [http-nio-8080-exec-1] c.a.l.servicios.impl.LogServiciosImpl    : INSERTANDO DESDE SERVICIO:com.accusys.logTransacciones.dao.dto.LogDto@7340b6b7
+2019-10-15 16:55:27.459 DEBUG 640 --- [http-nio-8080-exec-1] c.a.l.dao.impl.LogDaoImpl                : Desde impl Tablagsgsgss DAO sql: INSERT INTO diccionario.log_transacciones values(?,?,?,?,?,?,?,?)
+2019-10-15 16:55:27.460 DEBUG 640 --- [http-nio-8080-exec-1] c.a.l.dao.impl.LogDaoImpl                : Desde impl Antes del Error INSERT INTO diccionario.log_transacciones values(?,?,?,?,?,?,?,?)
+2019-10-15 16:55:42.788 DEBUG 640 --- [http-nio-8080-exec-2] c.a.l.controllers.logs.LogController     : ingresoLog: com.accusys.logTransacciones.dao.dto.LogDto@4ed7f4e0
+2019-10-15 16:55:42.802 DEBUG 640 --- [http-nio-8080-exec-2] c.a.l.servicios.impl.LogServiciosImpl    : INSERTANDO DESDE SERVICIO:com.accusys.logTransacciones.dao.dto.LogDto@4ed7f4e0
+2019-10-15 16:55:42.816 DEBUG 640 --- [http-nio-8080-exec-2] c.a.l.dao.impl.LogDaoImpl                : Desde impl Tablagsgsgss DAO sql: INSERT INTO diccionario.log_transacciones values(?,?,?,?,?,?,?,?)
+2019-10-15 16:55:42.818 DEBUG 640 --- [http-nio-8080-exec-2] c.a.l.dao.impl.LogDaoImpl                : Desde impl Antes del Error INSERT INTO diccionario.log_transacciones values(?,?,?,?,?,?,?,?)
+2019-10-15 16:57:25.489 DEBUG 640 --- [http-nio-8080-exec-4] c.a.l.controllers.logs.LogController     : ingresoLog: com.accusys.logTransacciones.dao.dto.LogDto@55d217a0
+2019-10-15 16:57:25.513 DEBUG 640 --- [http-nio-8080-exec-4] c.a.l.servicios.impl.LogServiciosImpl    : INSERTANDO DESDE SERVICIO:com.accusys.logTransacciones.dao.dto.LogDto@55d217a0
+2019-10-15 16:57:25.533 DEBUG 640 --- [http-nio-8080-exec-4] c.a.l.dao.impl.LogDaoImpl                : Desde impl Tablagsgsgss DAO sql: INSERT INTO diccionario.log_transacciones values(?,?,?,?,?,?,?,?)
+2019-10-15 16:57:25.534 DEBUG 640 --- [http-nio-8080-exec-4] c.a.l.dao.impl.LogDaoImpl                : Desde impl Antes del Error INSERT INTO diccionario.log_transacciones values(?,?,?,?,?,?,?,?)
+2019-10-15 16:58:49.758 DEBUG 640 --- [http-nio-8080-exec-6] c.a.l.controllers.logs.LogController     : ingresoLog: com.accusys.logTransacciones.dao.dto.LogDto@459ebf87
+2019-10-15 16:58:49.783 DEBUG 640 --- [http-nio-8080-exec-6] c.a.l.servicios.impl.LogServiciosImpl    : INSERTANDO DESDE SERVICIO:com.accusys.logTransacciones.dao.dto.LogDto@459ebf87
+2019-10-15 16:58:49.802 DEBUG 640 --- [http-nio-8080-exec-6] c.a.l.dao.impl.LogDaoImpl                : Desde impl Tablagsgsgss DAO sql: INSERT INTO diccionario.log_transacciones values(?,?,?,?,?,?,?,?)
+2019-10-15 16:58:49.803 DEBUG 640 --- [http-nio-8080-exec-6] c.a.l.dao.impl.LogDaoImpl                : Desde impl Antes del Error INSERT INTO diccionario.log_transacciones values(?,?,?,?,?,?,?,?)
+2019-10-15 16:58:50.036 DEBUG 640 --- [http-nio-8080-exec-6] c.a.l.excepciones.ManejoErrores          : Error gwnreal ExceptionPreparedStatementCallback; SQL [INSERT INTO diccionario.log_transacciones values(?,?,?,?,?,?,?,?)]; Column 'fecha_transaccion' cannot be null; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'fecha_transaccion' cannot be null
+2019-10-15 17:03:22.841 DEBUG 640 --- [http-nio-8080-exec-8] c.a.l.excepciones.ManejoErrores          : Error gwnreal ExceptionJSON parse error: Unexpected character ('-' (code 45)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('-' (code 45)): was expecting comma to separate Object entries
+ at [Source: (PushbackInputStream); line: 2, column: 38]
+2019-10-15 17:04:00.206 DEBUG 640 --- [http-nio-8080-exec-9] c.a.l.excepciones.ManejoErrores          : Error gwnreal ExceptionJSON parse error: Unexpected character ('/' (code 47)): maybe a (non-standard) comment? (not recognized as one since Feature 'ALLOW_COMMENTS' not enabled for parser); nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('/' (code 47)): maybe a (non-standard) comment? (not recognized as one since Feature 'ALLOW_COMMENTS' not enabled for parser)
+ at [Source: (PushbackInputStream); line: 2, column: 38]
+2019-10-15 17:04:47.019 DEBUG 640 --- [http-nio-8080-exec-10] c.a.l.controllers.logs.LogController     : ingresoLog: com.accusys.logTransacciones.dao.dto.LogDto@691537e7
+2019-10-15 17:04:47.036 DEBUG 640 --- [http-nio-8080-exec-10] c.a.l.servicios.impl.LogServiciosImpl    : INSERTANDO DESDE SERVICIO:com.accusys.logTransacciones.dao.dto.LogDto@691537e7
+2019-10-15 17:04:47.052 DEBUG 640 --- [http-nio-8080-exec-10] c.a.l.dao.impl.LogDaoImpl                : Desde impl Tablagsgsgss DAO sql: INSERT INTO diccionario.log_transacciones values(?,?,?,?,?,?,?,?)
+2019-10-15 17:04:47.071 DEBUG 640 --- [http-nio-8080-exec-10] c.a.l.dao.impl.LogDaoImpl                : Desde impl Antes del Error INSERT INTO diccionario.log_transacciones values(?,?,?,?,?,?,?,?)
+2019-10-15 17:07:05.672 DEBUG 640 --- [http-nio-8080-exec-2] c.a.l.excepciones.ManejoErrores          : Error gwnreal ExceptionJSON parse error: Unrecognized token 'NULL': was expecting 'null', 'true', 'false' or NaN; nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'NULL': was expecting 'null', 'true', 'false' or NaN
+ at [Source: (PushbackInputStream); line: 2, column: 38]
+2019-10-15 17:07:26.053 DEBUG 640 --- [http-nio-8080-exec-3] c.a.l.controllers.logs.LogController     : ingresoLog: com.accusys.logTransacciones.dao.dto.LogDto@3bdb7125
+2019-10-15 17:07:26.068 DEBUG 640 --- [http-nio-8080-exec-3] c.a.l.servicios.impl.LogServiciosImpl    : INSERTANDO DESDE SERVICIO:com.accusys.logTransacciones.dao.dto.LogDto@3bdb7125
+2019-10-15 17:07:26.084 DEBUG 640 --- [http-nio-8080-exec-3] c.a.l.dao.impl.LogDaoImpl                : Desde impl Tablagsgsgss DAO sql: INSERT INTO diccionario.log_transacciones values(?,?,?,?,?,?,?,?)
+2019-10-15 17:07:26.085 DEBUG 640 --- [http-nio-8080-exec-3] c.a.l.dao.impl.LogDaoImpl                : Desde impl Antes del Error INSERT INTO diccionario.log_transacciones values(?,?,?,?,?,?,?,?)
+2019-10-15 17:07:26.124 DEBUG 640 --- [http-nio-8080-exec-3] c.a.l.excepciones.ManejoErrores          : Error gwnreal ExceptionPreparedStatementCallback; SQL [INSERT INTO diccionario.log_transacciones values(?,?,?,?,?,?,?,?)]; Column 'fecha_transaccion' cannot be null; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'fecha_transaccion' cannot be null
+2019-10-15 17:24:34.195  INFO 640 --- [Thread-4] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-15 17:24:34.217  INFO 640 --- [Thread-4] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'

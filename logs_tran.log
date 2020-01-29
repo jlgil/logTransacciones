@@ -1,0 +1,3 @@
+22:02:16.772 [http-nio-8080-exec-3] DEBUG c.a.l.controllers.logs.LogController - BUsqueda de todos lo LOGSdjfjdjf
+22:02:16.773 [http-nio-8080-exec-3] DEBUG c.a.l.controllers.logs.LogController - buscarAllClientes Ced: Libreria de prueba2
+22:02:16.774 [http-nio-8080-exec-3] DEBUG c.a.l.controllers.logs.LogController - buscarAllClientes Ced: null
