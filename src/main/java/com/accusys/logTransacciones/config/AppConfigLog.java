@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
+import org.springframework.context.annotation.PropertySources;
 import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.datasource.DataSourceTransactionManager;
@@ -15,8 +16,12 @@ import org.springframework.transaction.PlatformTransactionManager;
 
 @Configuration
 //@PropertySource(value = { "classpath:application.properties"})
-//@PropertySource(value = { "file:C:/JoseGil/Personal/miarchivo.properties"})
+@PropertySource(value = { "file:C:/JoseGil/Personal/application.properties"})
 //C:\JoseGil\Personal
+/*@PropertySources({
+	@PropertySource("classpath:miarchivo.properties"),
+	@PropertySource("classpath:segundo.properties")
+*/	
 public class AppConfigLog {
 
 	@Autowired
@@ -65,10 +70,14 @@ public class AppConfigLog {
 	@Bean
 	public JdbcTemplate jdbcTemplate(DataSource dataSource) {
 		 System.out.println("Driver des jdc " + dataSource.toString());
-		 System.out.println("URLr des jdc" + url.toString());
 		 System.out.println("Datasource des jdc" + dataSource.toString());
+		 
+		 System.out.println("Metodo JDBC Variable driverClassName" + driverClassName.toString());
+		 System.out.println("Metodo JDBC Variable url" + url.toString());
+		 System.out.println("Metodo JDBC Variable username" + username.toString());
+		 System.out.println("Metodo JDBC Variable password" + password.toString());
 
-	       return new JdbcTemplate(dataSource);
+	     return new JdbcTemplate(dataSource);
 	}
 	
 	@Bean
@@ -76,6 +85,12 @@ public class AppConfigLog {
 		 System.out.println("Driver des platta " + dataSource.toString());
 		 System.out.println("URLr des platta" + url.toString());
 		 System.out.println("Datasource des platta" + dataSource.toString());
+		 
+		 System.out.println("Metodo PLattform Variable driverClassName" + driverClassName.toString());
+		 System.out.println("Metodo PLattform Variable url" + url.toString());
+		 System.out.println("Metodo PLattform Variable username" + username.toString());
+		 System.out.println("Metodo PLattform Variable password" + password.toString());
+		 
 
 	       return new DataSourceTransactionManager(dataSource);
 	}

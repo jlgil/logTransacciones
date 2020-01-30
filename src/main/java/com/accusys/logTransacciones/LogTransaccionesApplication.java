@@ -11,20 +11,19 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 
 
 @SpringBootApplication
-public class LogTransaccionesApplication{
-	//extends SpringBootServletInitializer {
+public class LogTransaccionesApplication extends SpringBootServletInitializer {
+	
 
 	public static void main(String[] args) {
 		SpringApplication.run(LogTransaccionesApplication.class, args);
 	}
 	
 	
-	/*
+
 	 @Override
 	   protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
 	      return application.sources(LogTransaccionesApplication.class);
 	   }
-	   */	
 	
 	
 	

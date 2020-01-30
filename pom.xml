@@ -11,7 +11,7 @@
 	<groupId>com.accusys</groupId>
 	<artifactId>logTransacciones</artifactId>
 	<version>1.0</version>
-	<!--  <packaging>war</packaging>-->
+	<packaging>war</packaging>
 	<name>logTransacciones</name>
 	<description>Proyecto Almacenamiento de Log de Aplicaciones</description>
 
@@ -24,6 +24,7 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jdbc</artifactId>
 		</dependency>
+		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
@@ -35,12 +36,13 @@
 			<scope>runtime</scope>
 			<optional>true</optional>
 		</dependency>
-		<!--<dependency>
+		
+		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-tomcat</artifactId>
 			<scope>provided</scope>
 		</dependency>
-		-->
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
